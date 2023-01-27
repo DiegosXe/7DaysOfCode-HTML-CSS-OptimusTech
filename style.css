@@ -1,1 +1,74 @@
+body{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  min-height: 100vh;
+  width: 100vw;
+}
+
 /*Cabeçalho*/
+
+.cab {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+}
+
+.empresa-cab, .menu-cab, .espaco-cab, .botoes-cab {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-cab {
+  margin: 0 8px 0 0;
+}
+
+.titulo-cab {
+  color: #3A404E;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.espaco {
+  width: 100px;
+}
+
+.menu-cab a{
+  color: #667085;
+  padding: 0 32px 0 0;
+  font-size: 16px;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.menu-cab a:hover{
+  color: #8E2424;
+  text-decoration: underline;
+}
+
+.bt {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 44px;
+  transition: 0.3s;
+  width: 112px;
+}
+
+.bt:hover {
+  transform: scale(1.08);
+}
+
+.bt-entrar {
+  background-color: white;
+  color: #667085;
+  margin: 0 4px 0 0;
+}
+
+.bt-cadastrar {
+  background-color: #8E2424;
+  color: white
+}
+
