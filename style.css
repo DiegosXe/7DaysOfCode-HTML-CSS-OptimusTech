@@ -3,13 +3,15 @@
   --cinza: #667085;
   --cinza-escuro: #3A404E;
   --vermelho: #8E2424;
+
+  --leve: 400;
+  --medio: 500;
+  --pesado: 600;
 }
 
 body{
   font-family: "Inter", sans-serif;
-  font-weight: 500;
-  min-height: 100vh;
-  width: 100vw;
+  font-weight: var(--medio);
 }
 
 /*Cabeçalho*/
@@ -90,17 +92,17 @@ body{
   gap: 24px;
 }
 
-span {
+.sobrenos span {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 600;
+  font-weight: var(--pesado);
   color: var(--vermelho);
 }
 
-h1 {
+.sobrenos h1 {
   font-size: 48px;
   line-height: 60px;
-  font-weight: 600;
+  font-weight: var(--pesado);
   letter-spacing: -0.02em;
 }
 
@@ -108,7 +110,44 @@ h1 {
   font-size: 20px;
   line-height: 30px;
   width: 791px;
-  font-weight: 400;
+  font-weight: var(--leve);
+  color: var(--cinza);
+}
+
+/*Seções Métricas*/
+
+.secao-metrica {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 96px;
+  gap: 64px;
+}
+
+.metrica1, .metrica2, .metrica3, .metrica4 {
+  width: 280px;
+}
+
+.secao-metrica h2 {
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: var(--pesado);
+  color: var(--vermelho);
+  padding-bottom: 12px;
+}
+
+.secao-metrica h3 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: var(--medio);
+  padding-bottom: 8px;
+}
+
+.secao-metrica p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: var(--leve);
   color: var(--cinza);
 }
 
