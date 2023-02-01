@@ -3,6 +3,7 @@
   --cinza: #667085;
   --cinza-escuro: #3A404E;
   --vermelho: #8E2424;
+  --vermelho-claro: rgba(142, 36, 36, 0.05);
 
   --leve: 400;
   --medio: 500;
@@ -120,16 +121,16 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
   padding: 0px 0px 96px;
   gap: 64px;
 }
 
 .metrica1, .metrica2, .metrica3, .metrica4 {
   width: 280px;
+  align-items: center;
 }
 
-.secao-metrica h2 {
+.secao-metrica h1 {
   font-size: 60px;
   line-height: 72px;
   font-weight: var(--pesado);
@@ -137,16 +138,47 @@ body{
   padding-bottom: 12px;
 }
 
-.secao-metrica h3 {
+.secao-metrica h2 {
   font-size: 18px;
   line-height: 28px;
-  font-weight: var(--medio);
   padding-bottom: 8px;
 }
 
 .secao-metrica p {
   font-size: 16px;
   line-height: 24px;
+  font-weight: var(--leve);
+  color: var(--cinza);
+}
+
+.vagas-talentos {
+  align-items: center;
+  text-align: center;
+}
+
+.talentos img {
+  margin: 64px auto;
+}
+
+.talentos span {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--vermelho);
+  background-color: var(--vermelho-claro);
+  border-radius: 16px;
+  padding: 4px 12px;
+}
+
+.talentos h1 {
+  margin: 20px auto;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: var(--pesado);
+}
+
+.talentos p {
+  font-size: 20px;
+  line-height: 30px;
   font-weight: var(--leve);
   color: var(--cinza);
 }
