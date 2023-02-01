@@ -2,6 +2,7 @@
   --branco: #FFFFFF;
   --cinza: #667085;
   --cinza-escuro: #3A404E;
+  --cinza-claro: #EAECF0;
   --vermelho: #8E2424;
   --vermelho-claro: rgba(142, 36, 36, 0.05);
 
@@ -151,13 +152,13 @@ body{
   color: var(--cinza);
 }
 
-.vagas-talentos {
+.talentos {
   align-items: center;
   text-align: center;
 }
 
 .talentos img {
-  margin: 64px auto;
+  margin: 64px auto 0;
 }
 
 .talentos span {
@@ -181,6 +182,49 @@ body{
   line-height: 30px;
   font-weight: var(--leve);
   color: var(--cinza);
+}
+
+.vagas {
+  width: 768px;
+  margin: 0 auto 96px;
+}
+
+.vagas h1 {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 64px 0 32px;
+}
+
+.vaga {
+  margin: 0 0 24px;
+  padding: 24px 24px 28px 24px;
+  border: 1px var(--cinza-claro) solid;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.vaga:hover {
+  box-shadow: 0 0 8px var(--cinza);
+}
+
+.vaga:hover > .titulo-vaga {
+  color: var(--vermelho);
+  text-decoration: underline;
+}
+
+.titulo-vaga {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 0 0 32px;
+}
+
+.informacoes span {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--cinza);
+  margin-right: 24px;
 }
 
 
