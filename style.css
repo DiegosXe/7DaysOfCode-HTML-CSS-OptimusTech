@@ -41,7 +41,7 @@ body{
   line-height: 24px;
 }
 
-.espaco {
+.espaco-cab {
   width: 100px;
 }
 
@@ -225,6 +225,50 @@ body{
   line-height: 24px;
   color: var(--cinza);
   margin-right: 24px;
+}
+
+.depoimentos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto 96px;
+  width: 1088px;
+  background-color: var(--vermelho-claro);
+  border-radius: 16px;
+  padding: 64px;
+  gap: 32px;
+}
+
+.depoimento h1 {
+  font-weight: var(--pesado);
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--vermelho);
+  margin: 0 0 16px;
+}
+
+.depoimento p {
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+}
+
+.colaborador img {
+  margin: 0 0 16px;
+}
+
+.colaborador h1 {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 4px;
+}
+
+.colaborador p {
+  font-weight: var(--leve);
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--cinza);
 }
 
 
