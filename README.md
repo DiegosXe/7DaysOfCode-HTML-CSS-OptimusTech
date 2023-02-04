@@ -1,4 +1,4 @@
-<p align="center"><img src="https://7daysofcode.io/assets/img/background-7days.1662756777.svg#vitrinedev"><br>
+<p align="center"><img src="https://7daysofcode.io/assets/img/share-img-doc.1647533642.png#vitrinedev"><br>
 
 <h1 align="center">OptimusTech</h1>
 
