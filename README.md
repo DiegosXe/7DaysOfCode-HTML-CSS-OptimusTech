@@ -75,7 +75,7 @@ muitos outros, coisas que qualquer pessoa entrando na área de Front-end precisa
 
 ## Deploy
 
-> ...
+> https://diegosxe.github.io/7DaysOfCode-HTML-CSS-OptimusTech/
   
 <br>
   
